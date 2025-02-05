@@ -1,0 +1,11 @@
+Show desktop navbar on large screens, hide on small screens
+.desktop-navbar {
+    display: flex;
+  }
+
+  /* If you want to hide desktop nav on small screens, add a media query */
+@media (max-width: 768px) {
+    .desktop-navbar {
+      display: none;
+    }
+  }

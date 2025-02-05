@@ -1,0 +1,55 @@
+body {
+  background-color: #F1E1B0;
+  font-family: "Geist", sans-serif;
+  font-weight: 200;
+  font-optical-sizing: auto;
+}
+
+.home-steez {
+  color: rgb(198, 0, 25);
+  text-shadow: 2px 2px rgb(241, 225, 176);
+  font-size: clamp(4rem, 2vw, 1.2rem);
+  font-family: "Galada", cursive;
+
+}
+.thrasher-steez {
+  color: rgb(198, 0, 25);
+  text-shadow: 2px 2px rgb(241, 225, 176);
+  font-size: 2rem;
+  font-family: "Galada", cursive;
+}
+
+.contact-form {
+  background-color: rgb(248, 248, 248);
+  padding: 2rem;
+}
+
+.home-carousel {
+  background-color: black;
+}
+
+.nav-logo {
+  height: 4rem;
+  width: 5rem;
+}
+
+.product-image {
+  object-fit: cover;
+}
+
+@media (max-width: 493px){
+  .home-steez {
+    font-size: 1.2rem;
+  }
+
+  .thrasher-steez {
+    font-size: 1.2rem;
+  }
+
+  .home-hero {
+    height: 00px;
+    width: 100px;
+  }
+
+  
+}
