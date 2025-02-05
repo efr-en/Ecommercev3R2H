@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Container, Grid, TextInput, Select, Title, Card, Image, Text, Button } from '@mantine/core';
+import { Container, Grid, TextInput, Select, Title, Text } from '@mantine/core';
 import { useMediaQuery } from '@mantine/hooks';
 import Cards from '../components/Cards';
 
